@@ -195,18 +195,21 @@ Use the filterByWord function below to do the following:
   DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 //2 params - array / string
-function filterByWord(/*your code here*/){
-  //create a new array to push our results to
-  const filtered = [];
-  //loop through the provided array and check every index
+function filterByWord(array, flavor){
+  let filteredArray = [];
   for(let i = 0; i<array.length; i++){
-  //if the index includes the string
-  if(array[i]).includes(string)){
-  //push it to the new array
-   filtered.push(array[i]);
+    if(array[i]).includes(flavor)){
+      filteredArray.push(array[i]);
+    }
+  }
+  return filteredArray;
 }
-return filtered;
-console.log('task 7')
+console.log('task 7:' filterByWord(originalFlavors, 'Chocolate'));
+
+
+
+
+
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
 
