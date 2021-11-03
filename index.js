@@ -58,6 +58,7 @@ console.log(originalFlavors);
 
 
 
+
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Confirm that an array is exactly 31 flavors. Your function should accept:
   1. an array as a parameter
@@ -70,7 +71,7 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 
 
 function is31Flavors(originalFlavors){
-  const iceCream = originalFlavors.length;
+  const iceCream = originalFlavors.length(31);
 return iceCream;
 }
 
